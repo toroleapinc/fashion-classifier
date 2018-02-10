@@ -13,3 +13,10 @@ python predict.py --image path/to/img.png
 ```
 
 Fashion-MNIST downloads automatically via torchvision.
+
+## Results
+
+| Model | Accuracy |
+|-------|----------|
+| Custom CNN | 93.4% |
+| ResNet-Small + SE | **94.7%** |
